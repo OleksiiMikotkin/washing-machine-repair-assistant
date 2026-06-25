@@ -1,0 +1,41 @@
+.venv/
+env/
+venv/
+ENV/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE (VS Code / Cursor)
+.vscode/*
+!.vscode/launch.json
+.cursor/
+.claude/
+.history/
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+.env
+.aws/
+
+htmlcov/
+.tox/
+.pytest_cache/
+output.txt
+
+# Runtime storage (sessions DB, metrics DB)
+storage/
+
+# Scratch / temp files
+temp/
+
+# Saved browser pages (not real tests)
+tests/
+
+# SQLite files
+*.db
+*.db-shm
+*.db-wal
